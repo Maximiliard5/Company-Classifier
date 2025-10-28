@@ -3,6 +3,8 @@ Automated company labeling pipeline using keyword matching, sentence embeddings,
 
 The results are found in outputs/companies_combined.csv
 
+Additional information can be found in the Company Classifier Documentation.pdf file.
+
 ## How to Run
 
 Open the main Python file and call the main function with your preferred method(s):
