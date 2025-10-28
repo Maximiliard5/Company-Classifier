@@ -1,6 +1,8 @@
 # Company-Classifier
 Automated company labeling pipeline using keyword matching, sentence embeddings, and zero-shot classification with transformers.
 
+The results are found in outputs/companies_combined.csv
+
 ## How to Run
 
 Open the main Python file (e.g., labeling_pipeline.py) and call the main function with your preferred method(s):
