@@ -6,10 +6,12 @@ How to Run
 
 Open the main Python file (e.g., labeling_pipeline.py) and call the main function with your preferred method(s):
 
-if __name__ == '__main__':
+```python
+if __name__ == "__main__":
     main(methods=('embeddings',))
     combine_results()
     count_unlabeled_companies()
+```
 
 
 Available methods:
