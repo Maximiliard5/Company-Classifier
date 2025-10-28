@@ -5,7 +5,7 @@ The results are found in outputs/companies_combined.csv
 
 ## How to Run
 
-Open the main Python file (e.g., labeling_pipeline.py) and call the main function with your preferred method(s):
+Open the main Python file and call the main function with your preferred method(s):
 
 ```python
 if __name__ == "__main__":
