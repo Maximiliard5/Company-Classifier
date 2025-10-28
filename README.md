@@ -23,8 +23,8 @@ Available methods:
 "model" -> zero-shot classification using BART (slowest, most powerful)
 
 To run all three methods:
-
+```python
 main(methods=('keyword', 'embeddings', 'model'))
-
+```
 
 Each method will generate a separate CSV file in the outputs/ folder. Then a csv file combining them will be generated.
