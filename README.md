@@ -1,8 +1,7 @@
 # Company-Classifier
 Automated company labeling pipeline using keyword matching, sentence embeddings, and zero-shot classification with transformers.
 
-How to Run
-1. Run a specific method
+##How to Run
 
 Open the main Python file (e.g., labeling_pipeline.py) and call the main function with your preferred method(s):
 
@@ -28,3 +27,15 @@ main(methods=('keyword', 'embeddings', 'model'))
 ```
 
 Each method will generate a separate CSV file in the outputs/ folder. Then a csv file combining them will be generated.
+
+##Changing File Names or Paths
+If your input CSV files have different names or locations, modify these parameters in the main() function call:
+
+```python
+main(
+    methods=('embeddings',), 
+    taxonomy_path='your_taxonomy_file.csv', 
+    companies_path='your_companies_file.csv', 
+    output_dir='your_output_folder'
+)
+```
