@@ -41,3 +41,7 @@ main(
     output_dir='your_output_folder'
 )
 ```
+### Performance Tips
+"keyword" method takes around 2 minutes to label my dataset
+"embeddings" method takes around 18 seconds to label my dataset
+"model" method takes around 2 days to label my dataset. Best for smaller datasets.
