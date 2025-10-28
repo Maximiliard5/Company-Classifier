@@ -298,7 +298,7 @@ def main(methods=('keyword','embeddings','model'),
     print(f'\nFinished all selected methods in {total_time/60:.1f} minutes')
 
 if __name__=='__main__':
-    main(methods=('embeddings',))
+    main(methods=('keyword','embeddings'))
     combine_results()
     #uncomment if you want to see how man companies were labeled
     #count_unlabeled_companies()
